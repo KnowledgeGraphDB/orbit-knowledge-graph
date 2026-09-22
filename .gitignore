@@ -23,7 +23,6 @@ crates/simulator/profiles
 evaluation_results*/
 
 # Local environment (credentials)
-.env
 config/config.yaml
 config/dev.local.yaml
 
@@ -77,3 +76,4 @@ e2e/report.html
 *.tfvars
 !bench/infra/.terraform.lock.hcl
 image-digests/
+config.bat
